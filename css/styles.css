@@ -337,6 +337,7 @@ img {
 }
 
 .team-name {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -409,7 +410,6 @@ img {
 }
 
 .team-position {
-  margin-top: 10px;
   margin-bottom: 24px;
   color: var(--second-text-color);
   font-size: 16px;
@@ -579,6 +579,11 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   margin-right: 0;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .contacts .item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -645,7 +650,7 @@ width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #afb1b8;
+  color: var(--primary-white-tx-bg-color);
   }
 
 .footer-social-item:not(:last-child) {
@@ -664,8 +669,5 @@ width: 100%;
   background-color: var(--accent-color);
 }
 
-.footer-social-item:hover .footer-social-icon,
-.footer-social-item:focus .footer-social-icon{
-  color: var(--primary-white-tx-bg-color);
-}
+
 
