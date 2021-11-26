@@ -461,13 +461,13 @@ img {
   fill: currentColor;
 }
 
-.clients-item:hover,
-.clients-item:focus {
-  border: solid 1px var(--accent-color);
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--accent-color);
 }
 
-.clients-item:hover .clients-logo,
-.clients-item:focus .clients-logo {
+.clients-link:hover .clients-logo,
+.clients-link:focus .clients-logo {
   color: var(--accent-color);
 }
 
