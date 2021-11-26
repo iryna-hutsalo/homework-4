@@ -533,6 +533,7 @@ img {
 
 .card-link {
   display: inline-block;
+  text-decoration: none;
 }
 
 .card-link:hover,
